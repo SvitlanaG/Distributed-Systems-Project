@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/VeganRecipesProject.iml" filepath="$PROJECT_DIR$/.idea/VeganRecipesProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vegan-recipes-catalog-service/vegan-recipes-catalog-service.iml" filepath="$PROJECT_DIR$/vegan-recipes-catalog-service/vegan-recipes-catalog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vegan-recipes-info-service/vegan-recipes-info-service.iml" filepath="$PROJECT_DIR$/vegan-recipes-info-service/vegan-recipes-info-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/vegan-recipes-rating-data-service.iml" filepath="$PROJECT_DIR$/vegan-recipes-rating-data-service/vegan-recipes-rating-data-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vegan-recipes-info-service" />
+        <module name="vegan-recipes-catalog-service" />
+        <module name="discovery-server" />
+        <module name="vegan-recipes-rating-data-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discovery-server" target="1.8" />
+      <module name="vegan-recipes-catalog-service" target="1.8" />
+      <module name="vegan-recipes-info-service" target="1.8" />
+      <module name="vegan-recipes-rating-data-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="discovery-server" options="-parameters" />
+      <module name="vegan-recipes-catalog-service" options="-parameters" />
+      <module name="vegan-recipes-info-service" options="-parameters" />
+      <module name="vegan-recipes-rating-data-service" options="-parameters" />
+    </option>
+  </component>
+</project>
