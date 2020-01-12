@@ -42,7 +42,7 @@ public class VeganRecipesCatalogResource {
                     .retrieve()
                     .bodyToMono(Recipe.class)
                     .block();
-            return new CatalogItem(recipe.getName(), recipe.getDesc(), rating.getRating());
+            return new CatalogItem(recipe.getName(), rating.getRating());
         })
                 .collect(Collectors.toList());
     }

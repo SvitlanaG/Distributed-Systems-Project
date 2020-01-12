@@ -4,16 +4,15 @@ public class Recipe {
 
     private String recipeId;
     private String name;
-    private String desc;
+    //private String desc;
 
     public Recipe() {
 
     }
 
-    public Recipe(String recipeId, String name, String desc) {
+    public Recipe(String recipeId, String name) {
         this.recipeId = recipeId;
         this.name = name;
-        this.desc = desc;
     }
 
     public String getRecipeId() {
@@ -32,11 +31,4 @@ public class Recipe {
         this.name = name;
     }
 
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
 }

@@ -10,6 +10,9 @@ public class Recipe {
         this.name = name;
     }
 
+    public Recipe() {
+    }
+
     public String getRecipeId() {
         return recipeId;
     }
