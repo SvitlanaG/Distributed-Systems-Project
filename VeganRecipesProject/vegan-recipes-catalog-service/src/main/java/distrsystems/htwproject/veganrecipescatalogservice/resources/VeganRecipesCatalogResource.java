@@ -1,9 +1,11 @@
 package distrsystems.htwproject.veganrecipescatalogservice.resources;
 
+import com.netflix.appinfo.InstanceInfo;
+import com.netflix.discovery.DiscoveryClient;
 import distrsystems.htwproject.veganrecipescatalogservice.models.CatalogItem;
 import distrsystems.htwproject.veganrecipescatalogservice.models.Recipe;
 import distrsystems.htwproject.veganrecipescatalogservice.models.UserRating;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,12 +22,29 @@ import java.util.stream.Collectors;
 @RequestMapping("/catalog")
 public class VeganRecipesCatalogResource {
 
+    @Autowired
+    private WebClient.Builder webClientBuilder;
+
+    /*private final DiscoveryClient client;
+    public VeganRecipesCatalogResource(DiscoveryClient client) {
+        this.client = client;
+    }
+    private int index =0;*/
+
+
     @RequestMapping("/{userId}")
     public List<CatalogItem> getCatalog(@PathVariable("userId") String userId) {
 
-        WebClient.Builder builder = WebClient.builder();
+       // WebClient.Builder builder = WebClient.builder();
 
-            UserRating userRating = builder.build()
+     /*   client.getInstancesById("service-name").get(0).getHomePageUrl();
+        // load balancing manuel
+        final List<InstanceInfo> instanceInfos = client.getInstancesById("name");
+        int size = instanceInfos.size();
+        final String url = instanceInfos.get(index++ % size).getHomePageUrl();*/
+
+
+            UserRating userRating = webClientBuilder.build()
                     .get()
                     .uri("http://localhost:8083/ratingsdata/users/" + userId)
                     .retrieve()
@@ -36,7 +55,7 @@ public class VeganRecipesCatalogResource {
         // call recipe info api from the catalog service
         return userRating.getUserRating().stream().map(rating -> {
 
-            Recipe recipe = builder.build()
+            Recipe recipe = webClientBuilder.build()
                     .get()
                     .uri("http://localhost:8082/vegan-recipes/" + rating.getRecipeId())
                     .retrieve()

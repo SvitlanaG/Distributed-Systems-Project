@@ -2,6 +2,7 @@ package distrsystems.htwproject.veganrecipesinfoservice.resources;
 
 import distrsystems.htwproject.veganrecipesinfoservice.models.Recipe;
 import distrsystems.htwproject.veganrecipesinfoservice.models.RecipeSummary;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,10 +16,12 @@ public class VeganRecipesResource {
     @Value("${api.key}")
     private String apiKey;
 
+    @Autowired
+    private WebClient.Builder webClientBuilder;
+
     @RequestMapping("/{recipeId}")
     public Recipe getRecipeInfo(@PathVariable("recipeId") String recipeId) {
-        WebClient.Builder builder = WebClient.builder();
-        RecipeSummary recipeSummary = builder.build()
+        RecipeSummary recipeSummary = webClientBuilder.build()
                 .get()
                 .uri("https://api.spoonacular.com/recipes/" + recipeId + "/information/?apiKey=" + apiKey)
                 .retrieve()
