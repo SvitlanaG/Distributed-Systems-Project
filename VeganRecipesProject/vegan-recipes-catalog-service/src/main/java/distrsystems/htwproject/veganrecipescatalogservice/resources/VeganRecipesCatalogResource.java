@@ -2,6 +2,7 @@ package distrsystems.htwproject.veganrecipescatalogservice.resources;
 
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.DiscoveryClient;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import distrsystems.htwproject.veganrecipescatalogservice.models.CatalogItem;
 import distrsystems.htwproject.veganrecipescatalogservice.models.Recipe;
 import distrsystems.htwproject.veganrecipescatalogservice.models.UserRating;
@@ -25,6 +26,9 @@ public class VeganRecipesCatalogResource {
     @Autowired
     private WebClient.Builder webClientBuilder;
 
+ /*   @Autowired
+    private MyFeignClient myFeignClient;*/
+
     /*private final DiscoveryClient client;
     public VeganRecipesCatalogResource(DiscoveryClient client) {
         this.client = client;
@@ -33,6 +37,7 @@ public class VeganRecipesCatalogResource {
 
 
     @RequestMapping("/{userId}")
+    @HystrixCommand
     public List<CatalogItem> getCatalog(@PathVariable("userId") String userId) {
 
        // WebClient.Builder builder = WebClient.builder();
