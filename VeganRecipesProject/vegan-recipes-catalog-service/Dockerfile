@@ -12,7 +12,7 @@ EXPOSE 80
 # add application artifact, strip group (if present) and version, and rename it
 ## because we are not in 'root' but in 'docker' folder,
 ## we have to navigate up (../) and navigate into target, to find the created *.jar file
-COPY target/*.jar discovery-server.jar
+COPY target/*.jar vegan-recipes-catalog-service.jar
 
 # Execute the application [with parameters (if needed)]
-ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/discovery-server.jar"]
+ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/vegan-recipes-catalog-service.jar"]
