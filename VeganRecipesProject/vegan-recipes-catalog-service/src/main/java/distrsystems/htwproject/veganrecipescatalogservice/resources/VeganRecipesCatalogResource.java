@@ -37,7 +37,7 @@ public class VeganRecipesCatalogResource {
 
 
     @RequestMapping("/{userId}")
-    @HystrixCommand
+   // @HystrixCommand
     public List<CatalogItem> getCatalog(@PathVariable("userId") String userId) {
 
        // WebClient.Builder builder = WebClient.builder();
