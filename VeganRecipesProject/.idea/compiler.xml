@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="vegan-recipes-info-service" />
+        <module name="config-server" />
         <module name="vegan-recipes-catalog-service" />
         <module name="discovery-server" />
         <module name="vegan-recipes-rating-data-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
       <module name="discovery-server" target="1.8" />
       <module name="vegan-recipes-catalog-service" target="1.8" />
       <module name="vegan-recipes-info-service" target="1.8" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
       <module name="vegan-recipes-catalog-service" options="-parameters" />
       <module name="vegan-recipes-info-service" options="-parameters" />

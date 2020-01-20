@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/VeganRecipesProject.iml" filepath="$PROJECT_DIR$/.idea/VeganRecipesProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/vegan-recipes-catalog-service/vegan-recipes-catalog-service.iml" filepath="$PROJECT_DIR$/vegan-recipes-catalog-service/vegan-recipes-catalog-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/vegan-recipes-info-service/vegan-recipes-info-service.iml" filepath="$PROJECT_DIR$/vegan-recipes-info-service/vegan-recipes-info-service.iml" />

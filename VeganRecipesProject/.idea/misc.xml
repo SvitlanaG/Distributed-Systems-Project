@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/pom.xml" />
         <option value="$PROJECT_DIR$/vegan-recipes-info-service/pom.xml" />
         <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
