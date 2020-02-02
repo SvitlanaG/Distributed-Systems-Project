@@ -1,3 +1,4 @@
+/*
 package distrsystems.htwproject.veganrecipescatalogservice.resources;
 
 import com.netflix.appinfo.InstanceInfo;
@@ -26,14 +27,18 @@ public class VeganRecipesCatalogResource {
     @Autowired
     private WebClient.Builder webClientBuilder;
 
- /*   @Autowired
-    private MyFeignClient myFeignClient;*/
+ */
+/*   @Autowired
+    private MyFeignClient myFeignClient;*//*
 
-    /*private final DiscoveryClient client;
+
+    */
+/*private final DiscoveryClient client;
     public VeganRecipesCatalogResource(DiscoveryClient client) {
         this.client = client;
     }
-    private int index =0;*/
+    private int index =0;*//*
+
 
 
     @RequestMapping("/{userId}")
@@ -42,11 +47,13 @@ public class VeganRecipesCatalogResource {
 
        // WebClient.Builder builder = WebClient.builder();
 
-     /*   client.getInstancesById("service-name").get(0).getHomePageUrl();
+     */
+/*   client.getInstancesById("service-name").get(0).getHomePageUrl();
         // load balancing manuel
         final List<InstanceInfo> instanceInfos = client.getInstancesById("name");
         int size = instanceInfos.size();
-        final String url = instanceInfos.get(index++ % size).getHomePageUrl();*/
+        final String url = instanceInfos.get(index++ % size).getHomePageUrl();*//*
+
 
 
             UserRating userRating = webClientBuilder.build()
@@ -79,3 +86,4 @@ public class VeganRecipesCatalogResource {
 
 
 
+*/
