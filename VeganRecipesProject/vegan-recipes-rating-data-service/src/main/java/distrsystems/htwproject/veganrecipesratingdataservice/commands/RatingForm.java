@@ -1,13 +1,19 @@
-package distrsystems.htwproject.veganrecipesratingdataservice.repositories;
+package distrsystems.htwproject.veganrecipesratingdataservice.commands;
 
-import org.springframework.data.annotation.Id;
+public class RatingForm {
 
-public class RatingEntity {
-
+    private Long id;
     private String recipeId;
     private int rating;
 
-    @Id
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getRecipeId() {
         return recipeId;
     }
