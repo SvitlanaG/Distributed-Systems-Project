@@ -1,8 +1,6 @@
 package distrsystems.htwproject.veganrecipesratingdataservice.services;
 
 
-import distrsystems.htwproject.veganrecipesratingdataservice.commands.RatingForm;
-import distrsystems.htwproject.veganrecipesratingdataservice.converters.RatingFormToRating;
 import distrsystems.htwproject.veganrecipesratingdataservice.domain.Rating;
 import distrsystems.htwproject.veganrecipesratingdataservice.repositories.RatingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,12 +13,10 @@ import java.util.List;
 public class RatingServiceImpl implements RatingService {
 
     private RatingRepository ratingRepository;
-    private RatingFormToRating ratingFormToRating;
 
     @Autowired
-    public RatingServiceImpl(RatingRepository ratingRepository, RatingFormToRating ratingFormToRating) {
+    public RatingServiceImpl(RatingRepository ratingRepository) {
         this.ratingRepository = ratingRepository;
-        this.ratingFormToRating = ratingFormToRating;
     }
 
 
