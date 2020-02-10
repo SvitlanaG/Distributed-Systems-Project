@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class RatingServiceImpl implements RatingService{
+public class RatingServiceImpl implements RatingService {
 
     private RatingRepository ratingRepository;
     private RatingFormToRating ratingFormToRating;
@@ -37,23 +37,25 @@ public class RatingServiceImpl implements RatingService{
     }
 
     @Override
-    public Rating saveOrUpdate(Rating product) {
-        ratingRepository.save(product);
-        return product;
+    public Rating create(Rating rating) {
+        ratingRepository.save(rating);
+        return rating;
+    }
+
+    @Override
+    public Rating update(Long id, Rating rating) {
+        if (null == ratingRepository.findById(id)) {
+            return null;
+        }
+        rating.setId(id);
+        ratingRepository.save(rating);
+        return rating;
     }
 
     @Override
     public void delete(Long id) {
         ratingRepository.deleteById(id);
 
-    }
-
-    @Override
-    public Rating saveOrUpdateRatingForm(RatingForm ratingForm) {
-        Rating savedRating = saveOrUpdate(ratingFormToRating.convert(ratingForm));
-
-        System.out.println("Saved Rating Id: " + savedRating.getId());
-        return savedRating;
     }
 
 }

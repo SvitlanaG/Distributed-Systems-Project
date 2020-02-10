@@ -19,7 +19,7 @@ public class Rating {
     }
 
     public void setId(Long id) {
-        this._id = _id;
+        this._id = id;
     }
 
 
