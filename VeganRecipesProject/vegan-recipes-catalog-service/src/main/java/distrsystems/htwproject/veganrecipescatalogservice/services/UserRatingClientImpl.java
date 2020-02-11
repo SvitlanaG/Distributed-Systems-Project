@@ -1,4 +1,4 @@
-package distrsystems.htwproject.veganrecipescatalogservice.service;
+package distrsystems.htwproject.veganrecipescatalogservice.services;
 
 import distrsystems.htwproject.veganrecipescatalogservice.models.UserRating;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,8 +2,8 @@ package distrsystems.htwproject.veganrecipescatalogservice.controllers;
 
 import distrsystems.htwproject.veganrecipescatalogservice.models.CatalogItem;
 import distrsystems.htwproject.veganrecipescatalogservice.models.UserRating;
-import distrsystems.htwproject.veganrecipescatalogservice.service.RecipeClient;
-import distrsystems.htwproject.veganrecipescatalogservice.service.UserRatingClient;
+import distrsystems.htwproject.veganrecipescatalogservice.services.RecipeClient;
+import distrsystems.htwproject.veganrecipescatalogservice.services.UserRatingClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package distrsystems.htwproject.veganrecipescatalogservice.service;
+package distrsystems.htwproject.veganrecipescatalogservice.services;
 
 import distrsystems.htwproject.veganrecipescatalogservice.models.CatalogItem;
 import distrsystems.htwproject.veganrecipescatalogservice.models.Recipe;

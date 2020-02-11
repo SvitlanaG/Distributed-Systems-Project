@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 // get all rated recipe IDs
-// For each Id, call recipe info service and get details
+// For each Id, call recipe info services and get details
 // put them all together
 
 @RestController
@@ -48,7 +48,7 @@ public class VeganRecipesCatalogResource {
        // WebClient.Builder builder = WebClient.builder();
 
      */
-/*   client.getInstancesById("service-name").get(0).getHomePageUrl();
+/*   client.getInstancesById("services-name").get(0).getHomePageUrl();
         // load balancing manuel
         final List<InstanceInfo> instanceInfos = client.getInstancesById("name");
         int size = instanceInfos.size();
@@ -64,7 +64,7 @@ public class VeganRecipesCatalogResource {
                     .block();
 
 
-        // call recipe info api from the catalog service
+        // call recipe info api from the catalog services
         return userRating.getUserRating().stream().map(rating -> {
 
             Recipe recipe = webClientBuilder.build()

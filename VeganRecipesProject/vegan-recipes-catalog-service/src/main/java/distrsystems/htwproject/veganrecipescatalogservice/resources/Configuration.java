@@ -1,12 +1,10 @@
 package distrsystems.htwproject.veganrecipescatalogservice.resources;
 
 
-import distrsystems.htwproject.veganrecipescatalogservice.service.RecipeClient;
-import distrsystems.htwproject.veganrecipescatalogservice.service.RecipeClientImpl;
-import distrsystems.htwproject.veganrecipescatalogservice.service.UserRatingClient;
-import distrsystems.htwproject.veganrecipescatalogservice.service.UserRatingClientImpl;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import distrsystems.htwproject.veganrecipescatalogservice.services.RecipeClient;
+import distrsystems.htwproject.veganrecipescatalogservice.services.RecipeClientImpl;
+import distrsystems.htwproject.veganrecipescatalogservice.services.UserRatingClient;
+import distrsystems.htwproject.veganrecipescatalogservice.services.UserRatingClientImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.reactive.function.client.WebClient;
 
