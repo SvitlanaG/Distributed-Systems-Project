@@ -1,19 +1,18 @@
 package distrsystems.htwproject.veganrecipesratingdataservice.controllers;
 
 import distrsystems.htwproject.veganrecipesratingdataservice.domain.Rating;
+import distrsystems.htwproject.veganrecipesratingdataservice.models.UserRating;
 import distrsystems.htwproject.veganrecipesratingdataservice.services.RatingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
+import java.util.Arrays;
 import java.util.List;
 
-@Controller
+@RestController
 public class RatingController {
 
     private RatingService ratingService;
@@ -28,6 +27,16 @@ public class RatingController {
     public ResponseEntity<List> listRatings(){
         List<Rating> ratings = ratingService.listAll();
         return ResponseEntity.ok(ratings);
+    }
+
+    @RequestMapping({"/userrating/list"})
+    public UserRating getUserRating() {
+        List<Rating> ratings = ratingService.listAll();
+
+        UserRating userRating = new UserRating();
+        userRating.setUserRating(ratings);
+
+        return userRating;
     }
 
     @RequestMapping(value = "/rating/show/{id}")

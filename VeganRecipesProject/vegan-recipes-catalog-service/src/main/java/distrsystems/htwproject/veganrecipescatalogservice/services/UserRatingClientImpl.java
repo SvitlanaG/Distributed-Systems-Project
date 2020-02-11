@@ -17,7 +17,7 @@ public class UserRatingClientImpl implements UserRatingClient {
     public UserRating getUserRatig(String userId) {
         return webClientBuilder.build()
                 .get()
-                .uri("http://localhost:8083/ratingsdata/users/" + userId)
+                .uri("http://localhost:8083/userrating/list")
                 .retrieve()
                 .bodyToMono(UserRating.class)
                 .block();

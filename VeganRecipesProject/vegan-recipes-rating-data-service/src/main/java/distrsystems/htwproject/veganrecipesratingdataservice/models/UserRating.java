@@ -1,5 +1,7 @@
 package distrsystems.htwproject.veganrecipesratingdataservice.models;
 
+import distrsystems.htwproject.veganrecipesratingdataservice.domain.Rating;
+
 import java.util.List;
 
 public class UserRating {
