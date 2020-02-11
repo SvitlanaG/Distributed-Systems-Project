@@ -4,7 +4,8 @@ public class RecipeSummary {
 
     private String id;
     private String title;
-  //  private String image;
+    private String image;
+    private String sourceUrl;
 
 
     public RecipeSummary() {
@@ -24,6 +25,22 @@ public class RecipeSummary {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getSourceUrl() {
+        return sourceUrl;
+    }
+
+    public void setSourceUrl(String sourceUrl) {
+        this.sourceUrl = sourceUrl;
     }
 
 }

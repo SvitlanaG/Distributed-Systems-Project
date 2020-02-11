@@ -27,10 +27,7 @@ public class VeganRecipesResource {
                 .retrieve()
                 .bodyToMono(RecipeSummary.class)
                 .block();
-        return new Recipe(recipeId, recipeSummary.getTitle());
+        return new Recipe(recipeId, recipeSummary.getTitle(), recipeSummary.getImage(), recipeSummary.getSourceUrl());
     }
 
-    //public Recipe getRecipeInfo(@PathVariable("recipeId") String recipeId) {
-      //  return new Recipe(recipeId, "01");
-    //}
 }
