@@ -24,7 +24,7 @@ public class RecipeClientImpl implements RecipeClient {
                     .retrieve()
                     .bodyToMono(Recipe.class)
                     .block();
-            return new CatalogItem(recipe.getName(), rating.getRating());
+            return new CatalogItem(recipe.getName(), recipe.getImage(), recipe.getSourceUrl(), rating.getRating());
         })
                 .collect(Collectors.toList());
     }

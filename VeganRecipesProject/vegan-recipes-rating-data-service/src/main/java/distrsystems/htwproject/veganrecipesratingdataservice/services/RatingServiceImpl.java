@@ -23,7 +23,7 @@ public class RatingServiceImpl implements RatingService {
     @Override
     public List<Rating> listAll() {
         List<Rating> ratings = new ArrayList<>();
-        ratingRepository.findAll().forEach(ratings::add); //fun with Java 8
+        ratingRepository.findAll().forEach(ratings::add);
         return ratings;
     }
 
@@ -40,9 +40,6 @@ public class RatingServiceImpl implements RatingService {
 
     @Override
     public Rating update(Long id, Rating rating) {
-        if (null == ratingRepository.findById(id)) {
-            return null;
-        }
         rating.setId(id);
         ratingRepository.save(rating);
         return rating;
