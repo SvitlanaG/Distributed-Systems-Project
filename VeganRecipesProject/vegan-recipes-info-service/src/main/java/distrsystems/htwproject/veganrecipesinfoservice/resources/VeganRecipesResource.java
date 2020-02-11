@@ -1,3 +1,4 @@
+/*
 package distrsystems.htwproject.veganrecipesinfoservice.resources;
 
 import distrsystems.htwproject.veganrecipesinfoservice.models.Recipe;
@@ -31,3 +32,4 @@ public class VeganRecipesResource {
     }
 
 }
+*/
