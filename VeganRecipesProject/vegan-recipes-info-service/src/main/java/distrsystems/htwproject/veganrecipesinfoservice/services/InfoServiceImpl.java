@@ -1,5 +1,7 @@
 package distrsystems.htwproject.veganrecipesinfoservice.services;
 
+import com.netflix.hystrix.HystrixCommand;
+import com.netflix.hystrix.HystrixCommandGroupKey;
 import distrsystems.htwproject.veganrecipesinfoservice.models.Recipe;
 import distrsystems.htwproject.veganrecipesinfoservice.models.RecipeSummary;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,12 +21,10 @@ public class InfoServiceImpl implements InfoService {
 
     @Override
     public Recipe getRecipeInfo(String recipeId) {
-        RecipeSummary recipeSummary = webClientBuilder.build()
-                .get()
-                .uri("https://api.spoonacular.com/recipes/" + recipeId + "/information/?apiKey=" + apiKey)
-                .retrieve()
-                .bodyToMono(RecipeSummary.class)
-                .block();
-        return new Recipe(recipeId, recipeSummary.getTitle(), recipeSummary.getImage(), recipeSummary.getSourceUrl());
+        HystrixCommandGroupKey key = HystrixCommandGroupKey.Factory.asKey("INFOSERVICE");
+
+       HystrixCommand<Recipe> command = new GetRecipeCommand(webClientBuilder, recipeId, key, apiKey);
+
+       return command.execute();
     }
 }
