@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient("vegan-recipes-catalog-services")
+@FeignClient("vegan-recipes-catalog-service")
 public interface MyFeignClient {
 
     @GetMapping("/catalog/{userId}")

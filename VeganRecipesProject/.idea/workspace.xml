@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c40780e7-3e4b-4ef3-8556-7daeae63f027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/controllers/MyFeignController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/Configuration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/MyFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/MyFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-info-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-info-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-rating-data-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vegan-recipes-info-service/src/main/java/distrsystems/htwproject/veganrecipesinfoservice/VeganRecipesInfoServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-info-service/src/main/java/distrsystems/htwproject/veganrecipesinfoservice/VeganRecipesInfoServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/VeganRecipesRatingDataServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/VeganRecipesRatingDataServiceApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/discovery-server/target/" />
     <ignored path="$PROJECT_DIR$/vegan-recipes-catalog-service/target/" />
@@ -113,37 +110,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/controllers/MyFeignController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/MyFeignClient.java">
+        <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/resources/MyFeignClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/controllers/MyFeignController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="13" column="14" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/controllers/CatalogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="77" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,10 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/discovery-server/pom.xml" />
-        <option value="$PROJECT_DIR$/discovery-server/src/main/docker/Dockerfile" />
-        <option value="$PROJECT_DIR$/discovery-server/Dockerfile" />
-        <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/vegan-recipes-info-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
@@ -227,10 +206,14 @@
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/services/UserRatingClientImpl.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/Configuration.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/controllers/MyFeignController.java" />
-        <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/MyFeignClient.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/pom.xml" />
         <option value="$PROJECT_DIR$/vegan-recipes-info-service/pom.xml" />
         <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/pom.xml" />
+        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/VeganRecipesRatingDataServiceApplication.java" />
+        <option value="$PROJECT_DIR$/vegan-recipes-info-service/src/main/java/distrsystems/htwproject/veganrecipesinfoservice/VeganRecipesInfoServiceApplication.java" />
+        <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/MyFeignClient.java" />
+        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/resources/MyFeignClient.java" />
+        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/controllers/MyFeignController.java" />
       </list>
     </option>
   </component>
@@ -241,7 +224,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="608" />
     <option name="y" value="1177" />
     <option name="width" value="1440" />
@@ -265,12 +248,122 @@
             <path>
               <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
-              <item name="vegan-recipes-info-service" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-catalog-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-catalog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-catalog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-catalog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-catalog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="veganrecipescatalogservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-catalog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="veganrecipescatalogservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-catalog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="veganrecipescatalogservice" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
               <item name="vegan-recipes-rating-data-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-rating-data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-rating-data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-rating-data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-rating-data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="veganrecipesratingdataservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-rating-data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="veganrecipesratingdataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-rating-data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="veganrecipesratingdataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
+              <item name="vegan-recipes-rating-data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="veganrecipesratingdataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,6 +374,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -308,6 +402,8 @@
       <recent name="$PROJECT_DIR$/vegan-recipes-rating-data-service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="distrsystems.htwproject.veganrecipesratingdataservice.controllers" />
+      <recent name="distrsystems.htwproject.veganrecipesratingdataservice.resources" />
       <recent name="distrsystems.htwproject.veganrecipesinfoservice.resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -333,9 +429,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.21532847" />
+    <option name="contentProportion" value="0.3270073" />
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication">
+  <component name="RunManager" selected="Spring Boot.VeganRecipesCatalogServiceApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="distrsystems.htwproject.configserver.ConfigServerApplication" />
@@ -365,6 +461,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="distrsystems.htwproject.veganrecipescatalogservice.VeganRecipesCatalogServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -405,11 +502,19 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Docker.discovery-server/Dockerfile" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+      <item itemvalue="Spring Boot.VeganRecipesCatalogServiceApplication" />
+      <item itemvalue="Spring Boot.VeganRecipesInfoServiceApplication" />
+      <item itemvalue="Spring Boot.VeganRecipesRatingDataServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.VeganRecipesCatalogServiceApplication" />
         <item itemvalue="Spring Boot.VeganRecipesRatingDataServiceApplication" />
         <item itemvalue="Spring Boot.DiscoveryServerApplication" />
-        <item itemvalue="Spring Boot.VeganRecipesCatalogServiceApplication" />
         <item itemvalue="Spring Boot.VeganRecipesInfoServiceApplication" />
         <item itemvalue="Docker.discovery-server/Dockerfile" />
       </list>
@@ -431,7 +536,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128315000" />
+    <option name="totallyTimeSpent" value="131244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,11 +548,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="1177" width="1440" height="829" extended-state="6" />
+    <frame x="608" y="1177" width="1440" height="829" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.78717947" visible="true" weight="0.28755364" />
-      <window_info id="Structure" order="1" sideWeight="0.21282052" side_tool="true" visible="true" weight="0.28755364" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7889344" visible="true" weight="0.28755364" />
+      <window_info id="Structure" order="1" sideWeight="0.21106558" side_tool="true" visible="true" weight="0.28755364" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -463,14 +568,14 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49928468" weight="0.3283582" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32971507" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.3175034" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.31652662" />
       <window_info anchor="bottom" id="Docker" order="10" weight="0.541384" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.45183176" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3283582" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3283582" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4985694" visible="true" weight="0.47082767" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4985694" weight="0.4859944" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -524,21 +629,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://8a6dc5f6-baef-49c7-84f0-9f3d2a19de23/database/rating/schema/public/table/rating.sql" />
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/alt/commands/RatingForm.java" />
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/alt/models/UserRating.java" />
     <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/alt/models/Rating.java" />
     <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/alt/resources/RatingResource.java" />
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/VeganRecipesRatingDataServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/repositories/RatingRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -612,16 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/models/UserRating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.3.RELEASE/spring-data-commons-2.2.3.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -660,23 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/controllers/RatingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" selection-start-line="22" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/models/UserRating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -811,13 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/VeganRecipesCatalogServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/services/UserRatingClientImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -829,35 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/controllers/CatalogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/controllers/MyFeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="13" column="14" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,10 +914,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/models/UserRating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/controllers/CatalogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/VeganRecipesCatalogServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/VeganRecipesRatingDataServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-info-service/src/main/java/distrsystems/htwproject/veganrecipesinfoservice/VeganRecipesInfoServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/controllers/MyFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/models/UserRating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/MyFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/controllers/RatingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/controllers/MyFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/resources/MyFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
