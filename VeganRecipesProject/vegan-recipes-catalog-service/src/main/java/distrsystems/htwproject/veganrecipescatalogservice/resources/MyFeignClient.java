@@ -1,14 +1,16 @@
-/*
+
 package distrsystems.htwproject.veganrecipescatalogservice.resources;
 
 
+import distrsystems.htwproject.veganrecipescatalogservice.models.UserRating;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 @FeignClient("vegan-recipes-catalog-services")
 public interface MyFeignClient {
 
-    @GetMapping("ratingsdata/users/{userId}")
-    UserRating clientVeganRecipesCatalogServiceResponse(@PfadVariable Long userId);
+    @GetMapping("/catalog/{userId}")
+    UserRating clientVeganRecipesCatalogServiceResponse(@PathVariable String userId);
 }
-*/
+
