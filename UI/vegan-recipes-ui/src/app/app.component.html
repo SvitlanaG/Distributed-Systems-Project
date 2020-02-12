@@ -1,5 +1,23 @@
-<h1>{{ title }}</h1>
-<div *ngFor="let catalog of catalogItems$" style="text-align: center;">
-  <h2>{{ catalog.name }} - {{ catalog.rating }}</h2>
-  <p>{{ catalog.sourceUrl }}</p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="card" *ngFor="let catalog of catalogItems$">
+        <div class="card-body">
+          <img
+            class="card-img-left"
+            src="{{ catalog.image }}"
+            alt="Card image cap"
+          />
+          <h5 class="card-title">{{ catalog.name }}</h5>
+          <p class="card-text">Rating - {{ catalog.rating }}</p>
+          <a
+            href="{{ catalog.sourceUrl }}"
+            class="btn btn-primary"
+            target="_blank"
+            >Get the recipe</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
