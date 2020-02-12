@@ -1,5 +1,5 @@
+<h1>{{ title }}</h1>
 <div *ngFor="let catalog of catalogItems$" style="text-align: center;">
-  <h1>{{ title }}</h1>
-  <h2>{{ catalog.titel }} - {{ catalog.rating }}</h2>
+  <h2>{{ catalog.name }} - {{ catalog.rating }}</h2>
   <p>{{ catalog.sourceUrl }}</p>
 </div>

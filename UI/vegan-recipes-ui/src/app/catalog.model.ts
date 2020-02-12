@@ -1,5 +1,5 @@
 export class Catalog {
-  titel: string;
+  name: string;
   image: string;
   sourceUrl: string;
   rating: number;
