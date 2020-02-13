@@ -8,8 +8,16 @@
             src="{{ catalog.image }}"
             alt="Card image cap"
           />
-          <h5 class="card-title">{{ catalog.name }}</h5>
-          <p class="card-text">Rating - {{ catalog.rating }}</p>
+          <h4 class="card-title">{{ catalog.name }}</h4>
+          <div class="star">
+            <p>
+              <rating
+                [(ngModel)]="catalog.rating"
+                [max]="max"
+                [readonly]="isReadonly"
+              ></rating>
+            </p>
+          </div>
           <a
             href="{{ catalog.sourceUrl }}"
             class="btn btn-primary"

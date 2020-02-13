@@ -9,8 +9,10 @@ import { Component, OnInit } from "@angular/core";
 })
 export class AppComponent implements OnInit {
   title = "vegan-recipes-ui";
-
   catalogItems$: Catalog[];
+  max: number = 5;
+  rate: number;
+  isReadonly: boolean = true;
 
   constructor(private dataService: DataService) {}
 

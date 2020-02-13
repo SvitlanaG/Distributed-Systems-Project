@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c40780e7-3e4b-4ef3-8556-7daeae63f027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/persistence/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-catalog-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-catalog-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-info-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-info-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-rating-data-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/persistence/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/persistence/build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/persistence/configure-database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/configure-database.sql" afterDir="false" />
-    </list>
+    <list default="true" id="c40780e7-3e4b-4ef3-8556-7daeae63f027" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/discovery-server/target/" />
     <ignored path="$PROJECT_DIR$/vegan-recipes-catalog-service/target/" />
     <ignored path="$PROJECT_DIR$/vegan-recipes-info-service/target/" />
@@ -116,17 +104,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vegan-recipes-info-service/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -236,11 +214,6 @@
             <path>
               <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VeganRecipesProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VeganRecipesProject" type="462c0819:PsiDirectoryNode" />
-              <item name="vegan-recipes-info-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -415,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140759000" />
+    <option name="totallyTimeSpent" value="141534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,10 +401,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="608" y="1177" width="1440" height="829" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7884232" visible="true" weight="0.28755364" />
-      <window_info id="Structure" order="1" sideWeight="0.21157685" side_tool="true" visible="true" weight="0.28755364" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7878788" visible="true" weight="0.28755364" />
+      <window_info id="Structure" order="1" sideWeight="0.21212122" side_tool="true" visible="true" weight="0.28755364" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -447,14 +419,14 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49928468" weight="0.3283582" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32971507" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.29831934" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.23529412" />
       <window_info anchor="bottom" id="Docker" order="10" weight="0.541384" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.45183176" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3283582" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3283582" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.3277311" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4985694" weight="0.49159664" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4985694" visible="true" weight="0.49159664" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -891,20 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -930,6 +888,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
