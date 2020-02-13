@@ -12,4 +12,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y emacs-nox
 
 COPY configure-database.sql /docker-entrypoint-initdb.d/configure-database.sql
 
-EXPOSE 5432:5432
+EXPOSE 5433:5432

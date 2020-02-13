@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c40780e7-3e4b-4ef3-8556-7daeae63f027" name="Default Changelist" comment="" />
+    <list default="true" id="c40780e7-3e4b-4ef3-8556-7daeae63f027" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/persistence/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vegan-recipes-catalog-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-catalog-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vegan-recipes-info-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-info-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-rating-data-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/persistence/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/persistence/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/persistence/configure-database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/configure-database.sql" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/discovery-server/target/" />
     <ignored path="$PROJECT_DIR$/vegan-recipes-catalog-service/target/" />
     <ignored path="$PROJECT_DIR$/vegan-recipes-info-service/target/" />
@@ -104,7 +116,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vegan-recipes-info-service/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,14 +155,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/repositories/RatingEntity.java" />
-        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/commands/RatingForm.java" />
-        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/domain/RatingEntity.java" />
-        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/converters/ProductToProductForm.java" />
-        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/converters/RatingFormToRating.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/repositories/RatingRepository.java" />
-        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/.gitignore" />
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/service/RecipeClient.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/service/RecipeClientImpl.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/resources/VeganRecipesCatalogResource.java" />
@@ -162,7 +177,6 @@
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/services/RatingClientImpl.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/models/UserRating.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/resources/RatingResource.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/controllers/RatingController.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/services/RatingServiceImpl.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/models/CatalogItem.java" />
@@ -184,6 +198,14 @@
         <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/controllers/MyFeignController.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-info-service/src/main/java/distrsystems/htwproject/veganrecipesinfoservice/resources/MyFeignClient.java" />
         <option value="$PROJECT_DIR$/vegan-recipes-info-service/src/main/java/distrsystems/htwproject/veganrecipesinfoservice/controllers/MyFeignController.java" />
+        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/persistence/build.sh" />
+        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/persistence/Dockerfile" />
+        <option value="$PROJECT_DIR$/vegan-recipes-rating-data-service/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config-server/.gitignore" />
+        <option value="$PROJECT_DIR$/discovery-server/.gitignore" />
+        <option value="$PROJECT_DIR$/vegan-recipes-catalog-service/.gitignore" />
+        <option value="$PROJECT_DIR$/vegan-recipes-info-service/.gitignore" />
       </list>
     </option>
   </component>
@@ -244,6 +266,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/alt" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -285,7 +308,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.3270073" />
+    <option name="contentProportion" value="0.310219" />
   </component>
   <component name="RunManager" selected="Spring Boot.VeganRecipesCatalogServiceApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -392,7 +415,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132951000" />
+    <option name="totallyTimeSpent" value="140759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,9 +428,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="608" y="1177" width="1440" height="829" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7889344" visible="true" weight="0.28755364" />
-      <window_info id="Structure" order="1" sideWeight="0.21106558" side_tool="true" visible="true" weight="0.28755364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7884232" visible="true" weight="0.28755364" />
+      <window_info id="Structure" order="1" sideWeight="0.21157685" side_tool="true" visible="true" weight="0.28755364" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -423,14 +447,14 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49928468" weight="0.3283582" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32971507" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.31652662" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.29831934" />
       <window_info anchor="bottom" id="Docker" order="10" weight="0.541384" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.45183176" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3283582" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3283582" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4985694" weight="0.4859944" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3277311" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4985694" weight="0.49159664" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -484,57 +508,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/repositories/RatingRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/converters/RatingFormToRating.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery-server/src/main/java/distrsystems/htwproject/discoveryserver/DiscoveryServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/commands/RatingForm.java" />
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/models/Rating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/services/RatingClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/src/main/java/distrsystems/htwproject/veganrecipescatalogservice/services/RatingClientImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/src/main/java/distrsystems/htwproject/veganrecipesratingdataservice/resources/RatingResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -894,6 +867,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/configure-database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-rating-data-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-catalog-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vegan-recipes-info-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
