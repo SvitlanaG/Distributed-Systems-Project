@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c40780e7-3e4b-4ef3-8556-7daeae63f027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-catalog-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-catalog-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-info-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-info-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vegan-recipes-rating-data-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/vegan-recipes-rating-data-service/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="c40780e7-3e4b-4ef3-8556-7daeae63f027" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/discovery-server/target/" />
     <ignored path="$PROJECT_DIR$/vegan-recipes-catalog-service/target/" />
     <ignored path="$PROJECT_DIR$/vegan-recipes-info-service/target/" />
@@ -395,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144455000" />
+    <option name="totallyTimeSpent" value="145063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
