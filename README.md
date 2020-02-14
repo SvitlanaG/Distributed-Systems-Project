@@ -11,3 +11,12 @@ Wäre es leichter, wenn man einen Katalog erstellen könnte und dort verschieden
 Einen solchen Service für vegane Ernährung habe ich im Rahmen des VS-Modules entwickelt.
 
 <img align="center" width="800" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/VeganRecipesApp.png">
+
+
+### Verwendete Software-Technologien
+
+* Java Spring - Back-End
+* Angular - Front-End
+* PostgreSQL - Datenbank
+* Postman - API Testing
+* Docker - Containervirtualisierung
