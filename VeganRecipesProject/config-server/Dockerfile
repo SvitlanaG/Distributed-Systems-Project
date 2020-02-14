@@ -5,14 +5,14 @@ FROM hirokimatsumoto/alpine-openjdk-11
 # change if you're going to use Netty or not needed at all!
 VOLUME /tmp
 
-# make port 8761 available to the world outside this container
-EXPOSE 8761
+# make port 8082 available to the world outside this container
+EXPOSE 8888
 
 
 # add application artifact, strip group (if present) and version, and rename it
 ## because we are not in 'root' but in 'docker' folder,
 ## we have to navigate up (../) and navigate into target, to find the created *.jar file
-COPY target/*.jar discovery-server.jar
+COPY target/*.jar config-server.jar
 
 # Execute the application [with parameters (if needed)]
-ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/discovery-server.jar"]
+ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/config-server.jar"]

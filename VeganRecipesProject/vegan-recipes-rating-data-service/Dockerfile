@@ -5,8 +5,8 @@ FROM hirokimatsumoto/alpine-openjdk-11
 # change if you're going to use Netty or not needed at all!
 VOLUME /tmp
 
-# make port 80 available to the world outside this container
-EXPOSE 80
+# make port 8083 available to the world outside this container
+EXPOSE 8083
 
 
 # add application artifact, strip group (if present) and version, and rename it
