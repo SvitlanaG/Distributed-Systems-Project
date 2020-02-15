@@ -63,12 +63,15 @@ Einen solchen Service für vegane Ernährung habe ich im Rahmen des VS-Modules e
  * Port 8761
  <img align="center" width="1600" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Eureka.png">
  
-### Resilience patterns
+### 2 Resilience patterns
 
 ##### Circuit Breaker - Hystrix
 Da es eine externe API in dem Info-Service benutzt wird, kann dies mittels kaskadierenden Fehlern auch weitere Anwendungen zum Ausfall bringen. Um das zu vermeiden, ist ein Circuit Breaker eingesetzt. Dieses Verfahren lässt sich sehr leicht testen. Wenn WLAN deaktiviert ist, wird statt Rezepteinfo "n/a" ausgegeben.
 <img align="center" width="1000" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Hystrix.png">
  
+ 
+##### REST Client - FeignClient
+Der Feign-Service erlaubt es, die Kommunikation zwischen Microservices abzubilden, ohne selbst den notwendigen Code für den Aufruf von RESTful Services schreiben zu müssen. In jedem der drei Services wurde ein Interface MyFeignClient und eine Klasse MyFeignController angelegt. Wenn man mehrere Instanzen von den Microservices erstellt, fragt FeignClient sie dann nach dem Round-Robin-Prinzip ab.
   
 ## Projekt starten
  * Docker installieren und starten, falls dies noch nicht erfolgt ist
