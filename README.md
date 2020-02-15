@@ -73,11 +73,15 @@ Da es eine externe API in dem Info-Service benutzt wird, kann dies mittels kaska
 ##### REST Client - FeignClient
 Der Feign-Service erlaubt es, die Kommunikation zwischen Microservices abzubilden, ohne selbst den notwendigen Code für den Aufruf von RESTful Services schreiben zu müssen. In jedem der drei Services wurde ein Interface MyFeignClient und eine Klasse MyFeignController angelegt. Wenn man mehrere Instanzen von den Microservices erstellt, fragt FeignClient sie dann nach dem Round-Robin-Prinzip ab.
   
+  
+### Scaling capabilities - Docker
+Alle Microservices wurden dockeriziert. Das ermöglicht Skalieren der Services.
+
 ## Projekt starten
  * Docker installieren und starten, falls dies noch nicht erfolgt ist
  * Terminal aufmachen
  * Projekt clonen: `git clone git@github.com:SvitlanaG/Distributed-Systems-Project.git` oder `git clone https://github.com/SvitlanaG/Distributed-Systems-Project.git`
-###### um eine Datenbank anzulegen, sind folgende Schritte notwendig:
+##### Um eine Datenbank als separate service anzulegen, sind folgende Schritte notwendig:
  * zu dem Verzeichnis `persistence` navigieren: `cd <checkout>/persistence/`
  * den Befehl `docker build --tag svitlana:postgres12 .` ausführen
  * den Befehl `docker run --name postgres -p 5433:5432 -e POSGRESS_PASSWORD=test -d svitlana:postgres12` ausführen
