@@ -134,3 +134,21 @@ Alternativ kann man das Projekt in einer IDE manuell starten.
  * Plug-in Moesif Orign & CORS Changer installieren und auf "ON" setzen
  * http://localhost:4200/ im Webbrowser öffnen 
  
+
+
+## Rating-data-API mit Postman testen
+
+1. GET `http://localhost:8083/rating/list`
+<img align="center" width="1000" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Postman/GETlist.png">
+
+2. GET by ID `http://localhost:8083/rating/show/1`
+<img align="center" width="1000" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Postman/GETbyID.png">
+
+3. POST `http://localhost:8083/rating/new`
+```
+{
+"recipeId": "631913",
+"rating": 2
+}
+```
+<img align="center" width="1000" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Postman/POST.png">
