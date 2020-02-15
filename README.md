@@ -152,3 +152,23 @@ Alternativ kann man das Projekt in einer IDE manuell starten.
 }
 ```
 <img align="center" width="1000" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Postman/POST.png">
+
+4. PUT `http://localhost:8083/rating/edit/6`
+```
+{
+"recipeId": "631913",
+"rating": 5
+}
+```
+<img align="center" width="1000" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Postman/PUT.png">
+
+Ergebnis:
+<img align="center" width="1000" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Postman/afterPUTlist.png">
+
+5. DELETE `http://localhost:8083/rating/delete/6` und `http://localhost:8083/rating/delete/6`
+<img align="center" width="1000" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Postman/DELETE.png">
+
+Ergebnis:
+<img align="center" width="1000" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Postman/afterDELETElist.png">
+
+
