@@ -52,6 +52,16 @@ Einen solchen Service für vegane Ernährung habe ich im Rahmen des VS-Modules e
   * http://localhost:4200
   
   
+#### Infrastrukturkomponenten
+
+##### Configuration Server
+ * haltet die Konfiguration der Microservices in einem zentralen Github-Repository https://github.com/SvitlanaG/Distributed-Systems-Project-Configs
+ * Port 8888
+ 
+##### Discovery Server - Eureka
+ * fasst die Services, ihre Instanzen und Lokationen in einer Datenstruktur zusammen
+ * Port 8761
+  
 ### Projekt starten
  * Docker installieren und starten, falls dies noch nicht erfolgt ist
  * Terminal aufmachen
