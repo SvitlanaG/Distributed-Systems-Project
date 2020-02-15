@@ -46,6 +46,11 @@ Einen solchen Service für vegane Ernährung habe ich im Rahmen des VS-Modules e
   * Port 8081
   * API-Endpoint: http://localhost:8081/catalog/userid
   
+#### User-Interface
+  * dem Benutzer wird eine Liste mit den Rezepten angezeigt, die er bewertet hat
+  * der Benutzer hat die Möglichkeit einen Rezept sich anzushauen, indem er auf den Button "Get the recipe" drückt
+  * http://localhost:4200
+  
   
 ### Projekt starten
  * Docker installieren und starten, falls dies noch nicht erfolgt ist
