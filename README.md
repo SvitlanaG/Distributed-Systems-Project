@@ -45,3 +45,8 @@ Einen solchen Service für vegane Ernährung habe ich im Rahmen des VS-Modules e
   * kommuniziert synchron mit zwei anderen Microservices über einen HTTP-Client, bekommt die Daten und stellt sie zusammen
   * Port 8081
   * API-Endpoint: http://localhost:8081/catalog/userid
+  
+  
+### Projekt starten
+ * Docker installieren und starten
+ * 
