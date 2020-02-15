@@ -75,7 +75,7 @@ Der Feign-Service erlaubt es, die Kommunikation zwischen Microservices abzubilde
   
   
 ### Scaling capabilities - Docker
-Alle Microservices wurden dockeriziert. Das ermöglicht Skalieren der Services.
+Alle Microservices wurden dockeriziert. Das ermöglicht Skalieren und ausführen der Services in einer Cloud-Infrastruktur.
 
 ## Projekt starten
  * Docker installieren und starten, falls dies noch nicht erfolgt ist
