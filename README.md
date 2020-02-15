@@ -122,3 +122,15 @@ Alle Microservices wurden dockeriziert. Das ermöglicht Skalieren und ausführen
 2. `./mvnw clean install`
 3. `docker build -t vegan-recipes-catalog-service  .`
 4. `docker run -p 8081:8081 vegan-recipes-catalog-service `
+
+
+Alternativ kann man das Projekt in einer IDE manuell starten.
+
+### vegan-recipes-ui starten:
+ * Node.js installieren
+ * zu dem Verzeichnis `vegan-recipes-ui` navigieren: `cd <checkout>/Distributed-Systems-Project/UI/vegan-recipes-ui`
+ * den Befehl `npm install` ausführen
+ * den Befehl `npm start` ausführen
+ * Plug-in Moesif Orign & CORS Changer installieren und auf "ON" setzen
+ * http://localhost:4200/ im Webbrowser öffnen 
+ 
