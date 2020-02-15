@@ -48,5 +48,11 @@ Einen solchen Service für vegane Ernährung habe ich im Rahmen des VS-Modules e
   
   
 ### Projekt starten
- * Docker installieren und starten
- * 
+ * Docker installieren und starten, falls dies noch nicht erfolgt ist
+ * Terminal aufmachen
+ * Projekt clonen: `git clone git@github.com:SvitlanaG/Distributed-Systems-Project.git` oder `git clone https://github.com/SvitlanaG/Distributed-Systems-Project.git`
+###### um eine Datenbank anzulegen, sind folgende Schritte notwendig:
+ * zu dem Verzeichnis `persistence` navigieren: `cd <checkout>/persistence/`
+ * den Befehl `docker build --tag svitlana:postgres12 .` ausführen
+ * den Befehl `docker run --name postgres -p 5433:5432 -e POSGRESS_PASSWORD=test -d svitlana:postgres12` ausführen
+ * Ausführung überprüfen `docker ps`
