@@ -61,6 +61,7 @@ Einen solchen Service für vegane Ernährung habe ich im Rahmen des VS-Modules e
 ##### Discovery Server - Eureka
  * fasst die Services, ihre Instanzen und Lokationen in einer Datenstruktur zusammen
  * Port 8761
+ <img align="center" width="1600" height="500" src="https://github.com/SvitlanaG/Distributed-Systems-Project/blob/master/Eureka.png">
   
 ### Projekt starten
  * Docker installieren und starten, falls dies noch nicht erfolgt ist
